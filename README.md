@@ -6,7 +6,7 @@
 I made a quick python app that takes a string of characters up to 128 characters and turns them into a flipper payload.txt written in duckyscript as individual ducky strings and some slightly humorous REM comment phrases to slightly obscure your password to be used on a flipperzero to autotype that string or one based on it directly into a field where you prefer not type it due to legnth/complexity or due to being hosted on a nontrusted system, etc.
 
 --0-128 bit string Input--  
-Accepts any string 0-128 characters includes 0-9, a-z, A-Z, SPACE **See note under ALTCODE
+Accepts any string 0-128 characters includes 0-9, a-z, A-Z, SPACE **See note under ALTCODE  
 Instead of 'STRING <my password>' being a payload, it is stored as a broken up mess, reconstructed and autotyped by the flipper. Not impossible to read, just a bit more difficult, if done correctly the payload.txt can/should only exist on your flipper
 
 --ALTCODE Substitution--  
