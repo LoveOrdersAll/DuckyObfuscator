@@ -7,7 +7,7 @@ I made a quick python app that takes a string of characters up to 128 characters
 
 --0-128 bit string Input--  
 Accepts any string 0-128 characters includes 0-9, a-z, A-Z, SPACE **See note under ALTCODE  
-Instead of 'STRING <my password>' being a payload, it is stored as a broken up mess, reconstructed and autotyped by the flipper. Not impossible to read, just a bit more difficult, if done correctly the payload.txt can/should only exist on your flipper
+Instead of 'STRING <mycomplexpassword>' being a payload, it is stored as a broken up mess, reconstructed and autotyped by the flipper. Not impossible to read, just a bit more difficult, if done correctly the payload.txt can/should only exist on your flipper
 
 --ALTCODE Substitution--  
 I have added a slider that allows you to replace a number of characters (0-128) of the original string with their ALTCODE equivalents instead of a STRING command.  This really only works on Windows boxes, but should help confuse keyloggers. On linux sometimes it just drops the altcodes during transmission.  **Special characters may be possible if the original string is completely rendered in altcodes with no introduced errors (the alt slider is full, the error slider is empty)
