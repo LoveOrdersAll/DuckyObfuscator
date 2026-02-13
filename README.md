@@ -17,7 +17,7 @@ I have added a slider that allows you to replace a number of characters (0-128) 
 It also takes the original string, hashes it with sha256 and compares it with the string it thinks the input will make when the ducky script is run (executed on a flipper as bad USB payload).  The SHA hash appears in green if the predicted text matches the original string, if it appears in red there has been a logic error or the next section is at play.
 
 --Error/Jitter/Entrophy--  
-I have added another slider that adds error data to the ducky script as it's processed, wip here, very basic errors/jitter/entrophy at the moment, to further obscure the original string.  It's just some Pi segments and arrow commands at present.  *If you would like submit any decoy phrases (funny REMs) and/or short inputs to be used as error data, send them in email to matthew.house.ITPRO@gmail.com*
+I have added another slider that adds error data to the ducky script as it's processed, wip here, very basic errors/jitter/entrophy at the moment, to further obscure the original string.  It's just some Pi segments and arrow commands at present.  *If you would like submit any decoy phrases (funny REMs) and/or short inputs to be used as error data, send them in email to matthew.house.ITPRO@gmail.com or drop them here or whatever idk, new to github*
 
 Using this *always* causes a hash mismatch because the string produced does not match the original string. This allows the injection of semi random non seed data, so two generations with the same seed key would make different payload.txt files and produce different typed passwords.
 
