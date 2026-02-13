@@ -24,7 +24,7 @@ Using this *always* causes a hash mismatch because the string produced does not 
 --payload.txt Creation and Sanitization of payload.txt and Clipboard--  
 When you generate your payload.txt it will appear in the same directory from which the script was called.  It clears your clipboard, and starts a 30 second timer that auto erases the payload.txt in the script directory.
 
-**You can/should move the payload file with qFlipper quickly; if you drag a copy anywhere else it defeats the purpose of the burn logic.**
+**You can/should move the payload file with qFlipper quickly; if you drag a copy anywhere else it defeats the purpose of the burn logic. As of version 0.93a there is no longer a UI popup to notify the user of payload.txt sanitization.**
 
 --Repeatability--  
 The seed key really doesn't matter, what matters is that the flipper types the same password everytime for each payload, and it is 'kinda' hard to read it.
