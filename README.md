@@ -1,4 +1,4 @@
-		  TITLE DuckyObfuscator
+	  TITLE DuckyObfuscator
       AUTHOR Chaos.Reigns.All
       DESCRIPTION Python app for "encoding" a string of 0-9, a-z, A-Z characters into an payload.txt for badUSB execution on a flipper as a physical PW manager.
 
