@@ -7,9 +7,9 @@ I made a quick python app that takes a string of characters up to 128 characters
 
 Uploaded some simple demo payloads using a 128 bit string of repeating "testtesttest..." as the seed.  Note: ERROR strings are multi-character, adding ERROR can significantly lengthen your payload produced password.
 Usage demos are here Youtube - @house.technologies  
-Test payload generation and move to flipper-  
-Test payload with alt characters-  
-Test payload with errors-  
+Test payload generation and move to flipper - https://youtu.be/G6Edk01FBws?si=M75sWF8KgCvw7R8k  
+Test payload with alt characters - https://youtu.be/mWkcgNgUvGk?si=8p52wLUPly_fQbzR  
+Test payload with errors - https://youtu.be/ifKJXopE4ww?si=vWIuha4QjSy_16er  
 Quick payload push demo here, https://youtube.com/shorts/siocVKhenU0?si=lsK6OWU2-HL6LJex  
 
 --0-128 bit string Input--  
