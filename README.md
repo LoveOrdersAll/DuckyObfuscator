@@ -3,7 +3,7 @@
       DESCRIPTION Python app for "encoding" a string of 0-9, a-z, A-Z characters into an payload.txt for badUSB execution on a flipper as a physical PW manager.
 
 # DuckyObfuscator
-I made a quick python app that takes a string of characters up to 128 characters and turns them into a flipper payload.txt written in duckyscript as individual ducky strings and some slightly humorous REM comment phrases to slightly obscure your password to be used on a flipperzero to autotype that string or one based on it directly into a field where you prefer not type it due to legnth/complexity or due to being hosted on a nontrusted system, etc.  Generated payloads can also be used as PSKs for other flipper users for a shared chat channel, etc.
+I made a quick python app that takes a string of characters up to 128 characters and turns them into a flipper payload.txt written in duckyscript as individual ducky strings and some slightly humorous REM comment phrases to slightly obscure your password to be used on a flipperzero to autotype that string or one based on it directly into a field where you prefer not to type it on a physical keyboard due to legnth/complexity or due to being hosted on a nontrusted or keyloggered system, etc.  Generated payloads can also be used as PSKs for other flipper users for a shared chat channel, etc.
 
 Uploaded some simple demo payloads using a 128 bit string of repeating "testtesttest..." as the seed.  Note: ERROR strings are multi-character, adding ERROR can significantly lengthen your payload produced password.
 Usage demos are here Youtube - @house.technologies  
