@@ -6,11 +6,11 @@
 I made a quick python app that takes a string of characters up to 128 characters and turns them into a flipper payload.txt written in duckyscript as individual ducky strings and some slightly humorous REM comment phrases to slightly obscure your password to be used on a flipperzero to autotype that string or one based on it directly into a field where you prefer not type it due to legnth/complexity or due to being hosted on a nontrusted system, etc.  Generated payloads can also be used as PSKs for other flipper users for a shared chat channel, etc.
 
 Uploaded some simple demo payloads using a 128 bit string of repeating "testtesttest..." as the seed.  Note: ERROR strings are multi-character, adding ERROR can significantly lengthen your payload produced password.
-Usage demos are here Youtube - @house.technologies 
-Test payload generation and move to flipper-
-Test payload with alt characters-
-Test payload with errors-
-Quick payload push demo here, https://youtube.com/shorts/siocVKhenU0?si=lsK6OWU2-HL6LJex
+Usage demos are here Youtube - @house.technologies  
+Test payload generation and move to flipper-  
+Test payload with alt characters-  
+Test payload with errors-  
+Quick payload push demo here, https://youtube.com/shorts/siocVKhenU0?si=lsK6OWU2-HL6LJex  
 
 --0-128 bit string Input--  
 Accepts any string 0-128 characters includes 0-9, a-z, A-Z, SPACE **See note under ALTCODE  
